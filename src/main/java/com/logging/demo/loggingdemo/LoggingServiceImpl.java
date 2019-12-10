@@ -18,7 +18,9 @@ public class LoggingServiceImpl implements LoggingService{
 
 	@Override
 	public String hello() {
-		LOG.info("Calling logging service");
+		LOG.info("Calling logging service INFO name: {}", "Sumanth");
+		LOG.debug("Calling logging service DEBUG");
+		LOG.error("Calling logging service ERROR");
 		return "Hello Sumanth";
 	}
 

@@ -24,7 +24,9 @@ public class LoggingController {
 	
 	@GetMapping("/hello")
 	public String sayHello() {
-		LOG.info("Calling hello controller");
+		LOG.info("Calling hello controller INFO");
+		LOG.debug("Calling hello controller DEBUG");
+		LOG.error("Calling hello controller ERROR");
 		return loggingService.hello();
 	}
 
