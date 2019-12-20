@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.logging.demo.loggingdemo;
+package com.logging.demo.loggingdemo.service;
 
 /**
  * @author Sumanth

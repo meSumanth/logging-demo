@@ -1,0 +1,4 @@
+#logging:
+#  root: ERROR
+#  pattern:
+#    level: "{ %mdc }"
